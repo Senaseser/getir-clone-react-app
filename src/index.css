@@ -10,4 +10,19 @@
     font-family: "Open Sans", sans-serif;
     @apply antialiased;
   }
+
+  :root {
+    --color-primary: #5d3ebc;
+    --color-secondary: 111 114 185;
+  }
+
+  .flag-select button {
+    @apply h-14 border-2 border-gray-200 transition-colors hover:border-primary-brand-color;
+  }
+  .flag-select button > span span:nth-child(2) {
+    @apply text-lg pl-2;
+  }
+  .phone {
+    @apply h-14 border-2 border-gray-200 transition-colors hover:border-primary-brand-color focus:border-primary-brand-color rounded outline-none px-3;
+  }
 }
