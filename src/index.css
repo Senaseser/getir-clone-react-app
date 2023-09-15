@@ -8,7 +8,7 @@
   html,
   body {
     font-family: "Open Sans", sans-serif;
-    @apply antialiased;
+    @apply antialiased bg-gray-100;
   }
 
   :root {
@@ -24,5 +24,9 @@
   }
   .phone {
     @apply h-14 border-2 border-gray-200 transition-colors hover:border-primary-brand-color focus:border-primary-brand-color rounded outline-none px-3;
+  }
+
+  .container {
+    max-width: 1200px !important;
   }
 }

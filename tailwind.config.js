@@ -12,6 +12,8 @@ module.exports = {
       backgroundImage: {
         "hero-bg":
           "linear-gradient( 90deg, var(--color-primary) 0%, rgba(93,62,188,0) 100% )",
+        "mobile-app":
+          'url("https://cdn.getir.com/getirweb-images/common/illustration/doodle.png")',
       },
     },
   },
