@@ -54,7 +54,7 @@ function Campaigns() {
   }, []);
 
   return (
-    <div className="container mx-auto py-8 px-4">
+    <div className="container mx-auto py-8 px-4 md:block hidden">
       <Title>Kampanyalar</Title>
       <Slider {...settings} className="-mx-2">
         {campaigns.length &&

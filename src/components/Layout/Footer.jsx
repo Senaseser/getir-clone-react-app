@@ -43,7 +43,7 @@ export default function Footer() {
   return (
     <div className="bg-white">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-4 pt-10">
+        <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 sm:gap-y-8 gap-y-8 pt-10">
           <section>
             <nav className="grid gap-y-4">
               <h6 className="text-lg text-primary-brand-color">
